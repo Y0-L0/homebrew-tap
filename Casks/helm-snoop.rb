@@ -14,22 +14,22 @@ cask "helm-snoop" do
   on_macos do
     on_intel do
       url "https://github.com/Y0-L0/helm-snoop/releases/download/v#{version}/helm-snoop_#{version}_darwin_amd64.tar.gz"
-      sha256 "9333d06e3dbe53080ffa7924fc5495908dca7c67ce6113f471e2283817ff5de4"
+      sha256 "70042951ea50fd9ee7dbb03702068dab282ed666883a85900dce52e8fe16a066"
     end
     on_arm do
       url "https://github.com/Y0-L0/helm-snoop/releases/download/v#{version}/helm-snoop_#{version}_darwin_arm64.tar.gz"
-      sha256 "d2a25452836c3f9be61ef18cb1526af35d234940cf7661b27eafed11a975b9a2"
+      sha256 "0589f37ee41a17d94767d5c54a4a6670f67d801cefa306aecb17b70a3542c933"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Y0-L0/helm-snoop/releases/download/v#{version}/helm-snoop_#{version}_linux_amd64.tar.gz"
-      sha256 "d8ee9b94c000853c532ec1a8d44ec5290eb80a64a224595ae935ecdea0324dd8"
+      sha256 "1fe2a7b67eb6ca398c4036c60708bbba88aa28169547c8f85162f21f34d8d173"
     end
     on_arm do
       url "https://github.com/Y0-L0/helm-snoop/releases/download/v#{version}/helm-snoop_#{version}_linux_arm64.tar.gz"
-      sha256 "ff12d38ea367872e30d9dcb4f2c663082d484668f3f6a8cb10c70285bc5dcdda"
+      sha256 "b36450ef00f0728e57a4b68a095c144b056498f4e1ec60b23e8b0d06c57cb5ce"
     end
   end
 
