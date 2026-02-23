@@ -3,7 +3,7 @@ cask "helm-snoop" do
   name "helm-snoop"
   desc "Detect unused and undefined values in Helm charts"
   homepage "https://github.com/y0-l0/helm-snoop"
-  version "0.2.2"
+  version "0.2.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "helm-snoop" do
   on_macos do
     on_intel do
       url "https://github.com/Y0-L0/helm-snoop/releases/download/v#{version}/helm-snoop_#{version}_darwin_amd64.tar.gz"
-      sha256 "5d8c17c0ed44e2a1035bf1e79575cb7c56a42ff61da541f087f5629e50d1082e"
+      sha256 "65f2070a4a58590c747aad8c3706c459d9f13a710f19537f732e8a0002ce6986"
     end
     on_arm do
       url "https://github.com/Y0-L0/helm-snoop/releases/download/v#{version}/helm-snoop_#{version}_darwin_arm64.tar.gz"
-      sha256 "b699710f9db1325f9e9eb928262eef938f69e9010c453e4b40cc1b191bf005d8"
+      sha256 "754b3998525abba487e5dd59a64df16e30e9a9ce3517d9970af78669d79d3b44"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Y0-L0/helm-snoop/releases/download/v#{version}/helm-snoop_#{version}_linux_amd64.tar.gz"
-      sha256 "2a15e10d4444ca0be6619cda8023ef29b2a746d7b5341e4ede3900deb045a802"
+      sha256 "71ce0c24166b030f3760467e46848c27b6c6dfd601968d5c482e0ae4cb6154f0"
     end
     on_arm do
       url "https://github.com/Y0-L0/helm-snoop/releases/download/v#{version}/helm-snoop_#{version}_linux_arm64.tar.gz"
-      sha256 "4bd9feef3f703d27491cd12f25415745df5dd7a59df58d64bd25969b924f0376"
+      sha256 "eb55efb093f5d851e6c2144604d7cdcf014b8379393b91c9c95f33215274aec8"
     end
   end
 
