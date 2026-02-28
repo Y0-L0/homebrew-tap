@@ -3,7 +3,7 @@ cask "kubesleep" do
   name "kubesleep"
   desc "Suspend and wake Kubernetes workloads on a schedule"
   homepage "https://github.com/Y0-L0/kubesleep"
-  version "0.5.3-next4"
+  version "0.5.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -11,10 +11,25 @@ cask "kubesleep" do
 
   binary "kubesleep"
 
+  on_macos do
+    on_intel do
+      url "https://github.com/Y0-L0/kubesleep/releases/download/v#{version}/kubesleep_#{version}_darwin_amd64.tar.gz"
+      sha256 "f72138fe76bbea7ffd7e6a6b95308f43fb9c875bb7e1debf031f558c2503d0c2"
+    end
+    on_arm do
+      url "https://github.com/Y0-L0/kubesleep/releases/download/v#{version}/kubesleep_#{version}_darwin_arm64.tar.gz"
+      sha256 "d57c0cb10134275775592a9da4d5693a77f96aa19ab101cf711ddf550277da54"
+    end
+  end
+
   on_linux do
     on_intel do
       url "https://github.com/Y0-L0/kubesleep/releases/download/v#{version}/kubesleep_#{version}_linux_amd64.tar.gz"
-      sha256 "b5b04c86afee14f48acff6f8c397107b2d0ef36f6aa4806352fd698333246735"
+      sha256 "1ffdb7dcdc8991bfcde3a06c57aee6751c48ad7f3ded21ea8da0bf820c317c13"
+    end
+    on_arm do
+      url "https://github.com/Y0-L0/kubesleep/releases/download/v#{version}/kubesleep_#{version}_linux_arm64.tar.gz"
+      sha256 "d411fc3ba5fb6c907100e927638a8e835bcc2465dbd3f22ca5d1ac899ddf458a"
     end
   end
 
