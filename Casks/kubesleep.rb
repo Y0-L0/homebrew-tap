@@ -14,22 +14,22 @@ cask "kubesleep" do
   on_macos do
     on_intel do
       url "https://github.com/Y0-L0/kubesleep/releases/download/v#{version}/kubesleep_#{version}_darwin_amd64.tar.gz"
-      sha256 "172d33d8f54e330ba6c91380d49ec56a4a78c1d65dc24db84b20a0928eb7c53e"
+      sha256 "78822ba8029d99189f7c522edcc987348877eb9cb45c9f34cd3a664f317f1cd5"
     end
     on_arm do
       url "https://github.com/Y0-L0/kubesleep/releases/download/v#{version}/kubesleep_#{version}_darwin_arm64.tar.gz"
-      sha256 "4f511e0caaea22248c1fb3a3d9c2d35157fe3ea3fb87172e1e90e4c7b25046e0"
+      sha256 "77f158e54b30c5213c76804f9444066aa450237f6f2a08a981eca14a90dacfbb"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Y0-L0/kubesleep/releases/download/v#{version}/kubesleep_#{version}_linux_amd64.tar.gz"
-      sha256 "4e12094bfa6ab389e62195730423e42ba01a7ad54d2b52e571cbaf57fdfc2698"
+      sha256 "4fd2823c67ec1876f9d942797aa93a847cace5aad0b50f8e9b599327b8330e61"
     end
     on_arm do
       url "https://github.com/Y0-L0/kubesleep/releases/download/v#{version}/kubesleep_#{version}_linux_arm64.tar.gz"
-      sha256 "c0cfc28419ebc8a88260360adc7b3bc6f6dee734cbe29a0a3a9ae6c1853fad5c"
+      sha256 "73b0be3d9e7243bdbbc162a34b31bd5eea9732b765b27988bfc25a6472de5158"
     end
   end
 
